@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from tag</title>
+</head>
+<body>
+    <!--from tag <from> different tag:input tag:<input> this tag self closed
+
+        action attribut use with form tag, attribut: name and value
+
+        Lable tag:<lable>: use attribute "for"
+        -->
+
+        <form action="/storedata">
+            <fieldset>
+                <legend>HTML  From</legend>
+
+            <label for="email">UserName</label>
+            <input type="text" placeholder="email" id="email"  required="true"> <br>
+            <label for="password">Password</label>
+            <input type="password" placeholder="enter strong password" id="password"><br>
+            <input type="submit" style="background-color: skyblue;">
+
+            </fieldset>
+
+        </form><br><br><br>
+
+
+
+        <form>
+            UserName: <input type="text" placeholder="email"><br>
+            DOB : <input type="date",placeholder="Date of birth"> <br>
+            Password: <input type="password"><br>
+            File : <input type="file"><br>
+            Range : <input type="range"><br>
+            <label for="male">Male</label>
+             <input type="radio" name="gender" id="male"><br>
+             <label for="female">Female</label>
+             <input type="radio" name="gender" id="female"><br>
+             <label>Other</label>
+             <input type="radio" name="gender"><br>
+            DateTime : <input type="datetime"><br>
+            CheckBox : <input type="checkbox"><br>
+            java :<input type="checkbox"><br>
+            python :<input type="checkbox"><br>
+
+            Button : <input type="button" value="click her" style="background-color: aqua;"><br>
+            Image : <input type="image" src="image/click-cursor-icon-with-click-here-button-free-png.webp" width="100" height="30"><br>
+            Color : <input type="color"><br>
+            LOcaltime : <input type="datetime-local"><br>
+            Submit : <input type="submit"><br>
+
+
+        </form><br><br><br>
+
+
+        <form>
+            <label for="country">Select your countery</label>
+
+            <select name="Country" id="country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="France">France</option>
+
+            </select>
+        </form><br><br>
+         
+        <!--text area tag :<textarea> use multiple line wrtite , attribut: rows, cols -->
+
+            <form>
+                <textarea name="story" id="story" rows="5" cols="10">write a story</textarea>
+            </form>
+    
+</body>
+</html>
